@@ -67,6 +67,52 @@ header {
     padding: 20px 0;
     width: 100%;
 }
+.form-name-email {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    margin: 0 0 0 30px;
+}
+.form-name {
+    width: 900px;
+    height: 41px;
+    font-size: 16px;
+    margin: 5px 30px 5px 0;
+}
+.form-message {
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 900px;
+    height: 200px;
+    margin: 5px 30px 15px 0;
+}
+.button {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    border: 2px solid #4aaaa5;
+    border-width: 4px;
+    background: #4aaaa5;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all .5s ease 0.0s;
+    margin: 0 0 15px 30px;
+}
+.button:hover {
+    background: #ffffff;
+    color: #4aaaa5;
+    border: solid 2px #4aaaa5;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    border-width: 4px;
+    cursor: pointer; 
+}
+.button:focus {
+    background: #ffffff;
+    color: #4aaaa5;
+    border: solid 2px #4aaaa5;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    border-width: 4px;
+    cursor: pointer; 
+}
 
 /* font-family: 'Comfortaa', cursive; */
 /* font-family: 'Merriweather', serif; */
